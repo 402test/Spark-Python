@@ -11,3 +11,7 @@ Spark支持大多数数据格式，与各种存储系统集成，可以在Mesos�
   
 对不同数据存储中的数据进行差异分析  
 ![image](https://github.com/402test/Spark-Python/blob/master/img/1571210429(1).jpg) 
+
+## 二 结构
+![image](https://github.com/402test/Spark-Python/blob/master/img/1571210466(1).jpg)  
+用户通过 SparkContext ，进行连接和操作，交互。创建RDDs并执行一系列转换以实现最终结果。然后将这些RDDs的转换转换为DAG并提交给调度程序，以便在一组工作节点上执行。  
